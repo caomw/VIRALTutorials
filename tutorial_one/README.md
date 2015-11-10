@@ -38,6 +38,6 @@ Each compute_* function calls the NN search using its respective data structure.
 
 ###Task #1
 
-. *Performance Analysis*. Quantify the execution time of each compute_* function call using a performance counter analysis tool such as [Google Performance Tools](https://github.com/gperftools/gperftools) or [GNU Profiler](https://sourceware.org/binutils/docs/gprof/). Specifically, find the execution time (in seconds) for each data structure. What is the speedups of the kd-tree vs. linear? k-means vs. linear? 
+*Performance Analysis*. Quantify the execution time of each compute_* function call using a performance counter analysis tool such as [Google Performance Tools](https://github.com/gperftools/gperftools) or [GNU Profiler](https://sourceware.org/binutils/docs/gprof/). Specifically, find the execution time (in seconds) for each data structure. What is the speedups of the kd-tree vs. linear? k-means vs. linear? 
 
 Next, vary the `num_db_items` to generate a graph of the execution time (y-axis) over num_db_items (x-axis). Use three design points where num_db_items = {512, 1024, 2048}.
