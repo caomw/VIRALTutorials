@@ -36,5 +36,4 @@ compute_kmeans(dataset, query, nn, indices, dists);
 
 Each compute_* function calls the NN search using its respective data-structure. Your task is to do the following.
 
-1. *Performance Analysis*. Quantify the execution time of each compute_* function call using a performance counter analysis tool such as [Google Performance Tools](https://github.com/gperftools/gperftools) or [GNU Profiler](https://sourceware.org/binutils/docs/gprof/). Use num_db_items = 512 and num_query_items = 512 (defaults). What is the speedups of the kd-tree vs. linear? k-means vs. linear?
-2. Vary the `num_db_items` to generate a graph of the execution time (y-axis) over num_db_items (x-axis).
+1. *Performance Analysis*. Quantify the execution time of each compute_* function call using a performance counter analysis tool such as [Google Performance Tools](https://github.com/gperftools/gperftools) or [GNU Profiler](https://sourceware.org/binutils/docs/gprof/). Use num_db_items = 512 and num_query_items = 512 (defaults). What is the speedups of the kd-tree vs. linear? k-means vs. linear? Next, vary the `num_db_items` to generate a graph of the execution time (y-axis) over num_db_items (x-axis).
